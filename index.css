@@ -1,0 +1,52 @@
+.bg-container {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Bree Serif";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small {
+  width: 50px;
+  height: 50px;
+  background-color: #fbbf24;
+}
+
+.medium {
+  width: 100px;
+  height: 100px;
+  background-color: #38bdf8;
+}
+
+.large {
+  width: 150px;
+  height: 150px;
+  background-color: #ec4899;
+}
+
+@media (min-width: 768px) {
+  .boxes-container {
+    flex-direction: row;
+    align-items: end;
+  }
+}
